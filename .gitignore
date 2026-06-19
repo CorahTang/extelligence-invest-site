@@ -1,0 +1,15 @@
+.DS_Store
+.Rhistory
+.next/
+node_modules/
+out/
+dist/
+build/
+.env
+.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+1703376411728.jpeg
+WechatIMG10_*.jpg
