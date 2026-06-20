@@ -17,10 +17,10 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-white shadow-sm relative">
+    <header className="bg-white shadow-sm relative z-50">
       <nav className="mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
+        <div className="flex h-16 items-center justify-between gap-4">
+          <div className="flex min-w-0 flex-1 items-center">
             <Logo />
           </div>
           
@@ -52,10 +52,10 @@ export default function Header() {
           </div>
           
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex-shrink-0">
             <button 
               onClick={toggleMenu}
-              className="text-gray-600 hover:text-gray-900 cursor-pointer p-2"
+              className="flex h-11 w-11 items-center justify-center rounded-md text-gray-600 hover:text-gray-900 cursor-pointer"
               aria-label="Toggle menu"
             >
               {isMenuOpen ? (

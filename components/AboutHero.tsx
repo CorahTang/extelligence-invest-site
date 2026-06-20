@@ -6,7 +6,7 @@ export default function AboutHero() {
 
   return (
     <section 
-      className="relative h-[60vh] bg-cover bg-center bg-no-repeat flex items-center"
+      className="relative flex min-h-[760px] items-center bg-cover bg-center bg-no-repeat py-10 sm:min-h-[640px] md:min-h-[560px] md:py-12"
       style={{ backgroundImage: `url(${heroImageUrl})` }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-blue-900/85 to-blue-700/70"></div>
@@ -24,8 +24,8 @@ export default function AboutHero() {
             <strong>Extelligence Invest</strong> is a cross-border early-stage investment firm with a mission to generate long-term alpha through disciplined, thesis-driven investing in transformative technologies.
           </p>
           
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 max-w-3xl">
-            <h3 className="text-xl font-semibold text-white mb-4">Our team combines decades of global experience across:</h3>
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 max-w-3xl sm:p-6">
+            <h3 className="text-lg font-semibold text-white mb-4 sm:text-xl">Our team combines decades of global experience across:</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-blue-100 text-sm">
               <div className="flex items-center space-x-3">
                 <i className="ri-funds-line w-4 h-4 flex items-center justify-center"></i>

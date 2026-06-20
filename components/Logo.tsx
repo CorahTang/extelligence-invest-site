@@ -7,14 +7,14 @@ interface LogoProps {
 
 export default function Logo({ className = '', showText = true }: LogoProps) {
   return (
-    <Link href="/" className={`flex items-center space-x-3 ${className}`}>
+    <Link href="/" className={`flex min-w-0 items-center gap-2 sm:gap-3 ${className}`}>
       {/* SVG Logo */}
-      <div className="relative">
+      <div className="relative flex-shrink-0">
         <svg 
-          width="40" 
-          height="40" 
+          width="36" 
+          height="36" 
           viewBox="0 0 40 40" 
-          className="flex-shrink-0"
+          className="h-9 w-9 sm:h-10 sm:w-10"
           fill="none"
         >
           {/* Background Circle */}
@@ -65,11 +65,11 @@ export default function Logo({ className = '', showText = true }: LogoProps) {
       
       {/* Text Logo */}
       {showText && (
-        <div className="flex flex-col">
-          <span className="text-2xl font-['Pacifico'] text-blue-600 leading-none">
+        <div className="flex min-w-0 flex-col">
+          <span className="truncate text-lg font-bold tracking-tight text-blue-600 leading-none sm:text-2xl">
             Extelligence
           </span>
-          <span className="text-sm font-semibold text-gray-600 leading-none -mt-1">
+          <span className="text-xs font-semibold uppercase tracking-[0.18em] text-gray-600 leading-none mt-1 sm:text-sm sm:normal-case sm:tracking-normal sm:-mt-1">
             Invest
           </span>
         </div>
