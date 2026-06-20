@@ -31,14 +31,14 @@ export default function ContactLegal() {
                 </div>
                 <div className="text-left">
                   <p className="text-blue-300 text-sm">Email</p>
-                  <a href="mailto:legal@extelligence.vc" className="text-white font-semibold hover:text-blue-300 transition-colors cursor-pointer">
-                    legal@extelligence.vc
+                  <a href="mailto:contact@extelligence.vc" className="text-white font-semibold hover:text-blue-300 transition-colors cursor-pointer">
+                    contact@extelligence.vc
                   </a>
                 </div>
               </div>
               
               <p className="text-blue-200 text-sm">
-                For compliance, regulatory filings, or legal inquiries.
+                For general, compliance, regulatory, or legal inquiries.
               </p>
             </div>
           </div>
