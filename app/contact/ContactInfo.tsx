@@ -3,10 +3,7 @@
 
 export default function ContactInfo() {
   const contactInfo = [
-    { purpose: 'General Inquiries', email: 'contact@extelligence.vc', icon: 'mail' },
-    { purpose: 'Founder Pitches', email: 'founders@extelligence.vc', icon: 'rocket' },
-    { purpose: 'Media & Press', email: 'media@extelligence.vc', icon: 'news' },
-    { purpose: 'Legal & Compliance', email: 'legal@extelligence.vc', icon: 'shield' }
+    { purpose: 'Contact', email: 'contact@extelligence.vc', icon: 'mail' }
   ];
 
   const renderIcon = (iconName: string) => {
@@ -55,18 +52,18 @@ export default function ContactInfo() {
         </div>
 
         {/* Contact Table */}
-        <div className="max-w-4xl mx-auto mb-16">
-          <div className="bg-gray-50 rounded-2xl p-8">
+        <div className="max-w-3xl mx-auto mb-16">
+          <div className="bg-gray-50 rounded-2xl p-4 sm:p-8">
             <div className="grid gap-6">
               {contactInfo.map((item, index) => (
-                <div key={index} className="flex items-center justify-between p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                <div key={index} className="flex flex-col items-center gap-4 p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow sm:flex-row sm:justify-between">
                   <div className="flex items-center space-x-4">
                     {renderIcon(item.icon)}
                     <span className="text-lg font-medium text-gray-900">{item.purpose}</span>
                   </div>
                   <a 
                     href={`mailto:${item.email}`}
-                    className="text-blue-600 hover:text-blue-800 font-medium transition-colors cursor-pointer"
+                    className="text-blue-600 hover:text-blue-800 font-medium transition-colors cursor-pointer break-all text-center sm:text-left"
                   >
                     {item.email}
                   </a>
