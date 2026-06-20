@@ -65,7 +65,7 @@ export default function Logo({ className = '', showText = true }: LogoProps) {
       
       {/* Text Logo */}
       {showText && (
-        <div className="flex min-w-0 flex-col">
+        <div className="hidden min-w-0 flex-col sm:flex">
           <span className="truncate text-lg font-bold tracking-tight text-blue-600 leading-none sm:text-2xl">
             Extelligence
           </span>
