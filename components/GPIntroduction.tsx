@@ -28,13 +28,7 @@ export default function GPIntroduction() {
       role: 'Venture Partner. Investment Operations & Financial Valuation Professional.',
       description: 'Over 20 years across private equity, asset management, and endowment institutions, with expertise in investment operations, valuation, and financial modeling.',
       image: '/amy-hu.jpeg'
-    },
-    {
-      name: 'Corah Tang',
-      role: 'Analyst.',
-      description: 'Corah supports Extelligence Invest with research, market analysis, and team operations, helping organize diligence materials and track emerging venture opportunities.',
-      image: '/corah-tang.jpg'
-    },
+    }
   ];
 
   return (

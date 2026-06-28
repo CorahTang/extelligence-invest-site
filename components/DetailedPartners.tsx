@@ -30,13 +30,6 @@ export default function DetailedPartners() {
       description: 'Amy Hu is an investment operations and financial valuation professional with over 20 years of experience across private equity, asset management, and endowment institutions. She currently serves as a Senior Operations Associate at Columbia Investment Management Company, specializing in asset valuation and financial modeling.\n\nPreviously, Amy held roles at Stanford Management Company, Hellman & Friedman, Credit Suisse, and Deloitte, building deep expertise in fund administration, middle-office operations, corporate finance, and accounting. She holds an MBA from Columbia Business School, a BBA in Accounting from Baruch College, and is a licensed Certified Public Accountant (CPA).',
       linkedin: 'https://www.linkedin.com/in/amyhu26/',
       image: '/amy-hu.jpeg'
-    },
-    {
-      name: 'Corah Tang',
-      title: 'Analyst.',
-      description: 'Corah Tang is an Analyst at Extelligence Invest, where she supports the team across investment research, market analysis, and day-to-day operations. She helps organize diligence materials, track emerging venture opportunities, and coordinate information across founders, partners, and internal workflows. Her work contributes to the firm\'s ability to evaluate new ideas, understand market dynamics, and support cross-border venture initiatives with clear research and careful execution.',
-      linkedin: 'https://www.linkedin.com/in/corah-tang',
-      image: '/corah-tang.jpg'
     }
   ];
 
